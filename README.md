@@ -2,14 +2,12 @@
 12-18-2020
 
 ### Project Title
-PDSND Version Control Project 
+PDSND Python Project 
 
 ### Description
-Hands-on practice about Version Control 
+Hands-on Python practice by creating user interactive code to provide data  
 
 ### Files used
-README.md
-BikeshareJuaid.py
 chicago.csv
 new-york-city.csv
 washington.csv
