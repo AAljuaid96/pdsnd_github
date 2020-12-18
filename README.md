@@ -15,4 +15,7 @@ new-york-city.csv
 washington.csv
 
 ### Credits
-Udacity helped me :) 
+Udacity helped me :)
+
+### Acknowledgments
+Thanks to Yaqeen Al Mahdi for helping me throughout this course!
