@@ -179,7 +179,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df, city)
         
-        # In case user wants to see raw data
+        # Refactoring idea 2 (can be def outside main()) In case user wants to see raw data
         raw_data = input("Interested to see the raw trip data? (yes, no) ").lower().strip()
         
         if(raw_data == "no"):
