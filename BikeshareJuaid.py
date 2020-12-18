@@ -169,7 +169,7 @@ def user_stats(df, city):
         print("eldest user's birth year: {}".format(eldest))
         print("Youngest user's birht year: {}".format(youngest))
         print("Most common birth year of users: {}".format(most_common_age))
-    #(try and except is my section lead's, Yaqeen Almahdi, idea :) is another way to do it too)
+    # Refactoring idea 1 (try and except is my section lead's, Yaqeen Almahdi, idea :) is another way to do it too)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -184,7 +184,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df, city)
         
-        # In case user wants to see raw data
+        # Refactoring idea 2 (can be def outside main()) In case user wants to see raw data
         raw_data = input("Interested to see the raw trip data? (yes, no) ").lower().strip()
         
         if(raw_data == "no"):
