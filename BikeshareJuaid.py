@@ -60,12 +60,14 @@ def load_data(city, month, day):
     df["day"] = df["Start Time"].dt.day_name()
     df["month"] = df["Start Time"].dt.month_name()
     
+    #These print commands are for debugging 
     #print(day + " " + month)
     #print(df.to_string(index=False))
     #print(df[['day', 'month']].head(5))
     #print(df['day'].head(5))
     #print(df['month'].head(5))
     #print(df.shape, 'shape')
+
     #In case of filtering
     
     if(month != "all"):
@@ -83,8 +85,11 @@ def time_stats(df):
     start_time = time.time()
 
     # TO DO: display the most common month
+
+    #These print commands are for debugging
     #print(df.size)
     #print(df.shape)
+
     most_common_month = df["month"].mode()[0]
     print("The most common month: {}".format(most_common_month))
 
